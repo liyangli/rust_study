@@ -2,9 +2,11 @@
 // use std::io;
 
 // use rand::Rng;
+mod chart5;
 
 fn main() {
-    
+    chart5::chart5_1::main();
+
 //     println!("Guess the number!");
 //     let secret_number = rand::rng().random_range(1..=100);
 //     println!("The secret number is: {secret_number}");
@@ -65,13 +67,13 @@ fn main() {
     // let s3 = takes_and_gives_back(s2);
     // println!("s3 is :{s3}");
 
-    let s1 = String::from("hello liyangli");
-    let len = calculate_length(&s1);
-    println!("The length of {} is {}", s1, len);
+    // let s1 = String::from("hello liyangli");
+    // let len = calculate_length(&s1);
+    // println!("The length of {} is {}", s1, len);
 
-    let mut s2 = String::from("hello");
-    change(&mut s2);
-    println!("s2 is :{s2}");
+    // let mut s2 = String::from("hello");
+    // change(&mut s2);
+    // println!("s2 is :{s2}");
 }
 
 
